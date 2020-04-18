@@ -175,14 +175,5 @@ public class ArrayDeque<Item> {
         }
     }
 
-    public static void main(String[] args) {
 
-        ArrayDeque intarr = new ArrayDeque<Integer>();
-        for (int i = 0; i < 15; i++) {
-            intarr.addLast(i);
-
-        }
-        intarr.removeFirst();
-
-    }
 }
