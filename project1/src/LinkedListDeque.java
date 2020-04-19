@@ -165,13 +165,5 @@ public class LinkedListDeque<gentype> {
     }
 
 
-    public static void main(String[] args) {
-        // Creates a list of one integer, namely 10
-        LinkedListDeque<String> L = new LinkedListDeque<String>("hello");
-        L.addLast("every body");
-        L.addLast(", :)");
-        L.printDeque();
-        String x = L.getRecursive(1);
-        System.out.println(x);
-    }
+
 }
